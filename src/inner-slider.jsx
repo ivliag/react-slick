@@ -66,8 +66,6 @@ export var InnerSlider = React.createClass({
           index: nextProps.slickGoTo,
           currentSlide: this.state.currentSlide
       });
-    } else {
-      this.update(nextProps);
     }
   },
   componentDidUpdate: function () {
